@@ -1,0 +1,12 @@
+#section {font-size:100px !important; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: brown; 
+ font-weight: 900; text-align: center;
+font-style: italic; text-transform: uppercase;
+text-decoration: dotted;text-indent:10%; 
+text-shadow: 20px 20px 20px 0px black;
+margin: 10%; padding: 10px; }
+s {font-size: 50px;}
+div {font-size: 150px; }
+.parent{ background-color: rgba(100, 255, 200, 3);}
+.child{background-color: rgba(200, 0, 100, 2);}
