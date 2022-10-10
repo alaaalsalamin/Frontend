@@ -10,3 +10,5 @@ s {font-size: 50px;}
 div {font-size: 150px; }
 .parent{ background-color: rgba(100, 255, 200, 3);}
 .child{background-color: rgba(200, 0, 100, 2);}
+#a{background-color: aqua; width: fit-content;
+}
