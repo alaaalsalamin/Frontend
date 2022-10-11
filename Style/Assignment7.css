@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  box-sizing: 100px;
 }
 .layout {
   display: flex;
@@ -8,11 +9,14 @@ body {
 .layout > .sidenav {
   padding: 20px 20px 20px 20px;
   background-color: rgb(4, 236, 236);
-  height: calc(100vh - 40px);
+  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  width: 30%;
   max-width: 200px;
+  min-width: 150px;
+  flex-wrap: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
 }
 .sidenav > nav {
   display: flex;
@@ -26,8 +30,11 @@ body {
 
 .content {
   padding: 20px 20px 20px 20px;
-  width: 60%;
-  height: calc(100vh - 40px);
+  height: 100vh;
+  overflow: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
   overflow: auto;
 }
 .cardSection {
@@ -35,10 +42,11 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 12px;
-  justify-content: center;
 }
 .cardSection > .card {
   background-color: rgb(197, 20, 49);
-  height: 120px;
-  width: 25%;
+  height: 150px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 150px;
 }
