@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 12px;
+  gap: 12px; 
 }
 .cardSection > .card {
   background-color: rgb(197, 20, 49);
