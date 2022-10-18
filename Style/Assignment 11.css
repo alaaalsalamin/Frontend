@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color: rgb(223, 219, 219);
+}
+.layout{
+display: flex;
+max-width: 1150px;
+margin: auto;
+}
+.col{
+    flex: 1;
+}
+form{
+max-width: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 17px;
+}
+img{
+   width: 100%;
+}
+.login{
+background-color: blue;
+padding:12px ;
+border: none;
+}
+h1{
+    text-align: center;
+}
+a.{
+    text-align: end;
+}
