@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.contanor {
+position: relative;}
+img {
+  justify-content: center;
+  height: 90vh;
+}
+.text1 {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  color: rgb(235, 235, 29);
+}
+.text2 {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: rgb(235, 235, 29);
+}
+.text3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(235, 235, 29);
+}
+.text4 {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  color: rgb(235, 235, 29);
+}
+.text5 {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  color: rgb(235, 235, 29);
+}
