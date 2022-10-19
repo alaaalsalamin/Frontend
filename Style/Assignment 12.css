@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+}
+.parent {
+  display: grid;
+  border: 2px solid pink;
+  height: 100vh;
+  width: 200vh;
+  margin: auto;
+  text-align: center;
+  gap: 20px;
+  grid-template-columns: repeat(18, 1fr) ;
+  grid-template-rows: repeat(9, 70px);
+  grid-template-areas:
+    "child1 . . . . . . . . . . . . . . . . child18"
+    "child1 child2 . . . . . . . . . . child13 child14 child15 child16 child17 child18"
+    "child1 child2 . . . . . . . . . .  child13 child14 child15 child16 child17 child18"
+    "child1 child2 child3 child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+    "child1 child2 child3 child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+    "child1 child2 child3 child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+    "child1 child2 child3 child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+    ". . . child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+    ". . . child4 child5 child6 child7 child8 child9 child10 child11 child12 child13 child14 child15 child16 child17 child18"
+
+}
+ .child {
+  height: 10vh;
+  width: 10vh;
+} 
+.child1 {
+  background-color: pink;
+  grid-area: child1;
+}
+.child2 {
+  background-color: rgb(49, 179, 184);
+  grid-area: child2;
+}
+.child3 {
+  background-color: purple;
+  grid-area: child3;
+}
+.child4 {
+  background-color: blue;
+  grid-area: child4;
+}
+.child5 {
+  background-color: red;
+  grid-area: child5;
+}
+.child6 {
+  background-color: green;
+  grid-area: child6;
+}
+.child7 {
+  background-color: yellow;
+  grid-area: child7;
+}
+.child8 {
+  background-color: black;
+  grid-area: child8;
+}
+.child9 {
+  background-color: brown;
+  grid-area: child9;
+}
+.child10 {
+    background-color: brown;
+    grid-area: child10;
+  }
+  .child11 {
+    background-color: brown;
+    grid-area: child11;
+  }
+  .child12 {
+    background-color: brown;
+    grid-area: child12;
+  }
+  .child13 {
+    background-color: brown;
+    grid-area: child13;
+  }
+  .child14 {
+    background-color: brown;
+    grid-area: child14;
+  }
+  .child15 {
+    background-color: brown;
+    grid-area: child15;
+  }
+  .child16 {
+    background-color: brown;
+    grid-area: child16;
+  }
+  .child17 {
+    background-color: brown;
+    grid-area: child17;
+  }
+  .child18 {
+    background-color: brown;
+    grid-area: child18;
+  }
