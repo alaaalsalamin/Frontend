@@ -23,9 +23,59 @@
 // };
 
 onload = function () {
-document.getElementsByClassName("name")[0].style.backgroundColor="lightgray";
-document.getElementById("hello").style.backgroundColor="pink";
-document.querySelector("p").style.backgroundColor="lightblue";
-document.getElementsByClassName("name")[1].style.backgroundColor="gray";
-console.log(document.getElementsByClassName("name"))
+  document.getElementsByClassName("name")[0].style.backgroundColor =
+    "lightgray";
+  document.getElementById("hello").style.backgroundColor = "pink";
+  document.querySelector("p").style.backgroundColor = "lightblue";
+  document.getElementsByClassName("name")[1].style.backgroundColor = "gray";
+  console.log(document.getElementsByClassName("name"));
+};
+
+let x = 10;
+let y = 20;
+let result = x * y;
+console.log(result);
+
+let x1 = 10;
+let y1 = 20;
+let result1 = x - y;
+console.log(result1);
+
+let a = 5;
+a++;
+console.log(a);
+a--;
+console.log(a);
+
+let v = Math.abs(-20);
+console.log(v);
+
+let array = [1, 100, 15, 16, 150];
+let n = Math.max(...array);
+console.log(n);
+
+function calc() {
+  let firstNumber = document.getElementById("first-number");
+  let secondNumber = document.getElementById("second-number");
+  let result1 = document.getElementById("result");
+  let add = document.getElementById("add");
+  let sub = document.getElementById("sub");
+  let mult = document.getElementById("mult");
+  let div = document.getElementById("div");
+
+
+
+  if(add.checked){
+    result1.innerHTML = parseInt(firstNumber.value) + parseInt(secondNumber.value);
+  }
+  if(sub.checked){
+    result1.innerHTML = parseInt(firstNumber.value) - parseInt(secondNumber.value);
+  }
+  if(mult.checked){
+    result1.innerHTML = parseInt(firstNumber.value) * parseInt(secondNumber.value);
+  }
+  if(div.checked){
+    result1.innerHTML = parseInt(firstNumber.value) / parseInt(secondNumber.value);
+  }
+
 }
