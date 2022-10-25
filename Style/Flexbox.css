@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  border: 1px solid black;
+  height: 210px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-basis: 1;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 40px;
+  flex-grow: 1;
+  padding: 25px;
+}
+.child-1 {
+  background-color: rgb(241, 172, 184);
+}
+.child-2 {
+  background-color: rgb(247, 247, 72);
+}
+.child-3 {
+  background-color: rgb(167, 61, 61);
+}
+.child-4 {
+  background-color: rgb(25, 200, 206);
+}
+.child-5 {
+  background-color: rgb(99, 95, 95);
+}
+.child-6 {
+  background-color: rgb(83, 202, 83);
+}

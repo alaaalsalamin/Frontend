@@ -1,0 +1,26 @@
+/* div {
+    background-color: rgb(238, 155, 155);
+    height: 50px;
+} */
+
+.p1:hover {
+  background-color: red;
+}
+
+.p2:hover {
+  background-color: blue;
+}
+/* 
+@media screen and (max-width: 400px) {
+  background-color: lightgray;
+} */
+/* 
+@media(Light.css) {
+  color: black;
+  background-color: white;
+}
+
+@media(Dark.css) {
+  color: white;
+  background-color: black;
+} */
