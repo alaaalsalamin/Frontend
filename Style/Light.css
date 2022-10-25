@@ -1,0 +1,11 @@
+@media screen and (max-width: 400px){
+    body{ background-color: lightgray;
+    }
+}
+
+@media screen and () {
+    body{
+        color: black;
+        background-color: white;
+    }
+} 
