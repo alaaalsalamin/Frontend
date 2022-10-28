@@ -1,0 +1,27 @@
+let name =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+console.log(name.length);
+console.log(name[2]);
+console.log(name[10]);
+console.log(name.repeat(2));
+console.log(name.charAt(3));
+console.log(name.indexOf('a'));
+console.log(name.indexOf('i',3));
+console.log(name.lastIndexOf('a'));
+console.log(name.slice(0,17));
+console.log(name.split(' '));
+console.log(name.split('d'));
+console.log(name.substr(0,10));
+console.log(name.slice(0,5));
+console.log(name.includes('sit'));
+console.log(name.includes('Alaa'));
+console.log(name.includes('Dolor'));
+console.log(name.includes('dolor'));
+console.log(name.startsWith('con'));
+console.log(name.startsWith('L'));
+console.log(name.startsWith('l'));
+console.log(name.startsWith('Alaa'));
+console.log(name.startsWith('a',3));
+console.log(name.startsWith('d',12));
+console.log(name.endsWith('t',20));
+console.log(name.endsWith('t',21));
